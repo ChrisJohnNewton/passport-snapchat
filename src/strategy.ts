@@ -5,7 +5,7 @@ import config from './config';
 import SnapchatAPIError from './errors/SnapchatAPIError';
 import SnapchatProfileParseError from './errors/SnapchatProfileParseError';
 
-interface SnapchatStrategyOptions {
+export interface SnapchatStrategyOptions {
   /**
    * @optional
    *
